@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Write a program to check a given number is a prime number or not
+        var num=+prompt("enter a number");
+        var count=0;
+        for(var i=1;i<=num;i++){
+            if(num%i===0){
+                count++
+            }
+        }
+        if(count===2){
+            console.log("Given number is  prime number")
+        }
+        else{
+            console.log("Given number is not number")
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Write a program to print only even digits of a given number The output should be 4,2,6 Ex. Let us take 154256
+        var sum=0;
+        var rem;
+        var num=+prompt("enter a number")
+        for(var i=num;i!=0;i=parseInt(i/10)){
+            rem=i%10;
+            sum=sum*10+rem;          
+        }
+        for(var j=sum;j!=0;j=parseInt(j/10)){
+            rem=j%10;
+            if(rem%2===0){
+                console.log(rem)
+            }
+        }
+
+
+       
+    </script>
+</body>
+</html>

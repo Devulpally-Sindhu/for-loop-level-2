@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Write a program to count the number of ‘1’s in a given number.
+        var num=+prompt("enter a number");
+        var count=0;
+        for(var i=num;i!=0;i=parseInt(i/10)){
+            rem=i%10;
+            if(rem===1){
+                count++
+            }
+        }
+        console.log(count)
+
+    </script>
+</body>
+</html>
